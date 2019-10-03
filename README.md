@@ -16,15 +16,24 @@ The data is processed and a time-series chart is created as a result.
 The csv file 'en-wikipedia_traffic_200712-201809' has the following fields:
 
 pageview_mobile_views: The combined mobile app and web views from the PageView API
+
 pageview_desktop_views: The desktop views from the PageView API
+
 pagecount_mobile_views: The mobile views from the legacy API
+
 pagecount_desktop_views: The desktop views from the legacy API
+
 pagecount_all_views: The combined desktop and mobile views for the legacy API
+
 pageview_all_views: The combined desktop and mobile views for the PageView API
+
 month: The recorded numeric month
+
 year: The recorded year
 
 # Other Considerations
 Data from the Pageview API excludes spiders/crawlers, while legacy API data does not. This is why the numbers a smaller drop off as the switch happens.
-Some months with a count of 0 have been excluded from the plot
-There is some overlap between the counts around May 2015 to July 2016
+
+Some months with a count of 0 have been excluded from the plot.
+
+There is some overlap between the counts around May 2015 to July 2016.
