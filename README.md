@@ -32,7 +32,7 @@ month: The recorded numeric month
 year: The recorded year
 
 # Other Considerations
-Data from the Pageview API excludes spiders/crawlers, while legacy API data does not. This is why the numbers a smaller drop off as the switch happens.
+Data from the Pageview API excludes spiders/crawlers, while legacy API data does not. This is why the numbers drop off as the switch happens.
 
 Some months with a count of 0 have been excluded from the plot.
 
